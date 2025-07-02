@@ -1,0 +1,124 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(171, 138, 174);
+  padding: 5px 5px;
+  height: 180px;
+}
+h1 {
+  color: black;
+}
+.progressselect {
+  display: inline-block;
+  border-radius: 3px;
+  background-color: rgb(147, 79, 145);
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  font-weight: 300;
+  right: 40px;
+}
+.submitbtn {
+  background-color: rgb(147, 79, 145);
+  margin-left: 1rem;
+}
+.submitbtn:hover {
+  background-color: rgb(105, 69, 111);
+  transform: scale(1.02);
+}
+.moviename {
+  height: 43px;
+  font-weight: 500;
+  font-size: large;
+}
+body {
+  background-color: white;
+}
+.movieslist {
+  display: block;
+  flex-wrap: wrap;
+  height: 50px;
+  font-weight: 700;
+  text-align: left;
+  list-style: none;
+  padding: 0;
+}
+.Rating {
+  font-weight: 600;
+  color: chocolate;
+}
+.submitbtn {
+  height: 50px;
+  width: 200px;
+}
+.priority-select {
+  height: 30px;
+  width: 90px;
+  background-color: rgb(172, 131, 179);
+  margin-right: 1rem;
+}
+.deletebtn {
+  height: 30px;
+  width: 90px;
+  background-color: rgb(147, 79, 145);
+  margin-right: 1rem;
+}
+.movieitem {
+  background-color: rgb(166, 106, 156);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.logintitle {
+  /* text-align: center; */
+}
+.login-container {
+  max-width: 24rem;
+  margin: 4rem auto;
+  padding: 2rem;
+  background: #fff7ed;
+  border-radius: 0.75rem;
+  border: 1px solid #fdba74;
+  box-shadow: 0 2px 6px rgb(147, 79, 145);
+}
+.countba {
+  text-decoration: wavy;
+}
+.form-input {
+  display: inline-block;
+  border-radius: 3px;
+  width: 200px;
+  height: 20px;
+  font-size: large;
+  font-weight: 300;
+  right: 800px;
+  margin: 2px auto;
+  align-items: 40px auto;
+  padding-right: 30px 100px;
+}
+.submit-button {
+  height: 20px;
+  background-color: rgb(219, 163, 217);
+  display: flex;
+  margin: 2px auto;
+}
+body {
+  background-color: pink;
+}
+.logintitle {
+  font-weight: bold;
+  font-size: xx-large;
+}
+.form-footer {
+  font-weight: bold;
+  font-size: large;
+  margin-top: 10px;
+}
+.deletebtn:hover {
+  background-color: rgb(134, 25, 139);
+  transform: scale(1.12);
+}
